@@ -1,4 +1,4 @@
-#1 Wichtelziehungs Algorithmus bauen:
+# Wichtelziehungs Algorithmus bauen:
 
 
 - Programmiersprache: Javascript
