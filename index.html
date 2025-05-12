@@ -1,27 +1,41 @@
 <!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="html2pdf.bundle.min.js"></script>
     <script defer src="index.js"></script>
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="index.css" />
     <title>Document</title>
-</head>
+  </head>
 
-<body>
-
-    <table id="tableId">
-
-        <tr>
+  <body>
+<h1>Wichteln Liste</h1>
+    <div class="container">
+      
+      <div class="table-container">
+        <table id="tableId">
+          <tr>
             <th></th>
-            <th> Schenkt:</th>
-        </tr>
+            <th>Schenkt:</th>
+          </tr>
+        </table>
 
-    </table>
+        <button id="btnMix">Mischen</button>
+        <button onclick="window.print()">Liste Herunterladen</button>
+        
+      </button>
+        <!-- <button id="btnNewLoad">Neu Laden</button> -->
+      </div>
 
-    <button id="btnMix">Mischen</button>
-    <button id="btnNewLoad">Neu Laden</button>
-</body>
-
+      <div class="list-container">
+        <input type="text" id="inputField" />
+        <button id="btnPush">Hinzufügen</button>
+        <div>
+          Liste:
+          <div id="list"></div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>

@@ -1,9 +1,7 @@
 # Wichtelziehungs Algorithmus bauen:
 
-
 - Programmiersprache: Javascript
 - Markup Language: HTML
-- Data Object Model: JSON
 - Style: CSS
 
 //12.03.24
@@ -12,7 +10,6 @@
 2. Fetch auf JSON im JS Script
 3. JSON umwandeln (.stringify) in ein von JS lesbares Array
 4. Algorithmus für die zufällige aussortierung der Namen aus dem Array - - ->
-
 
 // 13.03.24
 
@@ -23,11 +20,17 @@
 8. JS -> onclick func gebaut mit toggle f(x)
 9. CSS -> Linien, hintergrundfarbe und hover Effekt für die Tabelle
 
-Muss noch gemacht werden: 
+Muss noch gemacht werden:
 
 10. Die .appenchilds clearen - damit die Tabelle leer ist für den neuen Mix
 
-----
+// 12.05.25
+
+11. User kann selber Namen eintragen
+12. Dynamische Liste aus den Namen generieren
+13. Man kann die Liste ausdrucken oder als PDF herunterladen
+
+---
 
 Dokumentation angefangen zu schreiben am: 13.03.24
-Überarbeitet am: 13.03.24 (14:17 Uhr)
+Überarbeitet am: 12.05.25
